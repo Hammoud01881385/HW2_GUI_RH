@@ -1,0 +1,121 @@
+/* 
+Name: Rami Hammoud rami_hammoud@student.uml.edu
+Date: 10/10/2023
+File: pacific.css
+GUI Assignment: Updating CSS file to match HTML image given
+Description: File for all of the styling on the index page, used classes and ids for the 
+html tags that were alreayd existed.*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("ptrbackground.jpg");
+
+}
+
+nav ul {
+	font-size: 1.2em;
+	width: auto;
+}
+
+/* Removed from given code */
+/* nav a:visited {
+	color: #344873;
+} */
+nav a:hover {
+	color: #FFFFFF;
+}
+/* making picture + image as background behind header */
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+
+}
+header{
+	background-color:#000033;
+	background-size: 80%;
+	
+}
+/* Color of heading in content */
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+/* making font italic and white backgrund color */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	padding-left: 2%;
+	margin-left: 185px;
+	background-color: white;
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+/* the entire "box" in center */
+#wrapper{
+	width: 80%;
+	min-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #8dc6e4;
+	object-position: center;
+}
+/* link text on nav items in left of page (home..yurts..) */
+nav a{
+	text-decoration: none;
+	color: #001444;
+	font-weight:bolder;
+	font-size: larger;
+	margin-left: -8%;
+}
+
+/* Adding the marker.gif as the bullet*/
+#content li{
+	list-style: inside url('marker.gif') no-repeat;
+	/* padding-left: 20px; */
+}
+/* removing the standard bullets to all list elements */
+li{
+	list-style-type: none;
+}
+/* adds a margin to the coast image so it pushes it with the text */
+#content img{
+	float: left;
+	padding-right: 20px;
+}
+/* making the header texts light blue with a bold */
+.resort{
+	color: #4a8bb0;
+	font-weight:bolder;
+}
+/* the right side of page with white background */
+#content{
+	display: table-cell;
+	background-color: white;
+	/* padding: 20px; */
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+}
+/* left of page with the list on nav */
+nav{
+	display: table-cell;
+	float: left;
+}
+/* spacing for information  */
